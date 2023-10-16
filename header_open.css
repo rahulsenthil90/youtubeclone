@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    height: 3000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 8px;
+    vertical-align: middle;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: white;
+}
+.left_header{
+    display: flex;
+    margin-left: 25px;
+}
+.hamburgermenu{
+    width:24px;
+    cursor: pointer;
+}
+
+.youtube_logo{
+    width: 90px;
+    margin-left: 28px;
+    cursor: pointer;
+}
+.india{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.middle_header{
+    display: flex;
+    flex: 1;
+    max-width: 650px;
+}
+.search{
+    flex: 1;
+    height: 35px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border: solid;
+    border-color: rgb(174, 174, 174);
+    border-width: 1px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 0px;
+    padding-left:20px ;
+}
+.search::placeholder{
+    font-size: 16px;
+    color: rgb(156, 156, 156);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+.searchicon{
+    width: 24px;
+    border: solid;
+    border-width: 1px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-color: rgb(174, 174, 174);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: -0.8px;
+    height: 37.5px;
+    background-color: rgb(239, 237, 237);
+    cursor: pointer;
+}
+.searchicon:hover{
+    background-color: rgb(129, 129, 129);
+}
+.voice_search{
+    width: 25px;
+    background-color: rgb(239, 237, 237);
+    padding: 8px;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.voice_search:hover{
+    background-color: rgba(129, 129, 129, 0.39);
+}
+.right_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 70px;
+    width: 130px;
+}
+a{
+    margin-left: 60px;
+    
+    cursor: pointer;
+}
+.signin{
+    width: 70px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(174, 174, 174, 0.457);
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+}
+.signin:hover{
+    background-color: rgba(0, 157, 255, 0.087);
+    border-color: transparent;
+}
+.signin:active{
+    background-color: rgba(0, 157, 255, 0.304);
+}
+.tag{
+    display: flex;
+    position: fixed;
+    padding-top: 65px;
+    width: 100%;
+    padding-left: 102px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: white;
+    z-index: 50;
+}
+#quick_link{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    font-size: small;
+    font-weight: 500;
+    cursor: pointer;
+}
+.quick_link{
+    margin-left: 10px;
+    background-color: rgba(210, 209, 209, 0.258);
+    color: rgb(58, 58, 58);
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    font-size: small;
+    cursor: pointer;
+    opacity: background-color 0.25s;
+}
+.quick_link:hover{
+    background-color: rgba(210, 209, 209, 0.726);
+}
+.right_arrow{
+font-size: 20px;
+font-weight: 300;
+margin-left: 5px;
+padding: 3px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 40px;
+cursor: pointer;
+}
+.right_arrow:hover{
+    background-color: rgba(210, 209, 209, 0.726);
+}

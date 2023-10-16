@@ -1,0 +1,72 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    padding-left: 9px;
+    padding-bottom: 100%;
+    width: 60px;
+    padding-top: 53px;
+    z-index: 75;
+    background-color: white;
+}
+.home_icon{
+    width: 25px;
+    cursor: pointer;
+}
+.shorts_icon{
+    width: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.sub_icon{
+    margin-left: 18px;
+    width: 24px;
+    cursor: pointer;
+}
+.lib_icon{
+    width: 24px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.download_icon{
+    width: 15px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.sidebar_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: rgb(15, 15, 15);
+    padding-top: 6px;
+    cursor: pointer;
+}
+.sidebar_container{
+    padding:15px;
+    margin-top: 0px;
+    align-items: center;
+}
+.sidebar_container:hover{
+    background-color: rgba(164, 164, 164, 0.447);
+    border-radius: 5px;
+}
+.sidebar_container1{
+    padding: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.sidebar_container1:hover{
+    background-color: rgba(164, 164, 164, 0.447);
+    border-radius: 5px;
+}
+.sidebar_container2{
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.sidebar_container2:hover{
+    background-color: rgba(164, 164, 164, 0.447);
+    border-radius: 5px;
+}
