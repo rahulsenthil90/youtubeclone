@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="icon" href="/icons/icons/g_logo.png" class="head_icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .head_icon{
+        border-radius: 60px;
+    }
+    .box{
+        width: 450px;
+        height: 695px;
+        margin-left: 32%;
+        margin-right: 30%;
+        border: solid;
+        border-width: 1px;
+        border-color: rgba(193, 193, 193, 0.822);
+        border-radius: 10px;
+        margin-top: 32px;
+    }
+    .googleimage{
+        width: 75px;
+        margin-top: 39px;
+        margin-left: 42.8%;
+        cursor: pointer;
+    }
+    .signin{
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 43%;
+        margin-top: 14px;
+    }
+    .texttocontinue{
+        margin-top: 14px;
+        margin-left: 7%;
+        margin-bottom: 30px;
+    }
+    #textbox{
+        padding: 13px;
+        margin-bottom: 30px;
+        width: 80%;
+        height: 23px;
+        margin-left: 7%;
+        border: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        color: rgb(113, 113, 113);
+        border-color: rgb(207, 207, 207);
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #textbox::placeholder{
+        font-size: 16px;
+    }
+    #textbox:hover{
+        border-color: rgb(211, 211, 211);
+        box-shadow: 0px 1px 8px rgba(0,0,0,0.25);
+    }
+    .login{
+        display: flex;
+        justify-content: space-between;
+        width: 86%;
+        margin-left: 7%;
+        margin-top: 30px;
+        align-items: center;
+    } 
+    .signup{
+        color: rgb(0, 115, 255);
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+    }  
+    .asignup{
+        text-decoration: none;
+    }
+    .loginbutton{
+        background-color: rgb(0, 115, 255);
+        border: none;
+        color: white;
+        font-weight: 600;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        opacity: padding 5s,padding-left 5s,padding-right 5s;
+    }
+    .loginbutton:hover{
+        padding: 11px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    .bottom_text{
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+        margin-left: 32%;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .left_text{
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+    .left_text1{
+        font-size: 12px;
+        color: rgb(103, 103, 103);
+        cursor: pointer;
+    }
+    .right_text{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
+    .symbol{
+        font-size: 27px;
+        margin-top: -2px;
+        cursor: pointer;
+    }
+    .help{
+        font-size: 12px;
+        color: rgb(103, 103, 103);
+        cursor: pointer;
+    }
+    label{
+        margin-left: 7%;
+        color: rgb(113, 113, 113);
+    }
+    #image{
+        margin-left: 8%;
+    }
+    #choose_file{
+        margin: 0px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="box">
+        <img src="/icons/google_image.png" class="googleimage">
+        <div class="signin">Sign Up</div>
+        <div class="texttocontinue">Please enter the details to continue</div>
+        <input type="text" class="name" id="textbox" placeholder="Name">
+        <input type="text" class="phone" id="textbox" placeholder="Phone Number">
+        <input type="text" class="email" id="textbox" placeholder="Email">
+        <input type="text" class="pass" id="textbox" placeholder="Password">
+        <input type="date" id="textbox">
+        <label>Profile Picture</label>
+        <input type="file" id="choose_file" id="image" name="choose-file" accept="image/*"/>
+
+        <div class="login">
+            <a href="login.html" class="asignup"><div class="signup">Already have an account</div></a>
+            <a href="login.html"><button class="loginbutton">Sign up</button></a>
+        </div>
+    </div>
+    <div class="bottom_text">
+        <div class="left_text">
+            <div class="left_text1">English (united States)</div>
+            <div class="symbol">&#129171;</div>
+    </div>
+        <div class="right_text">
+            <div class="help">Help</div>
+            <div class="help">Privacy</div>
+            <div class="help">Terms</div>
+        </div>
+    </div>
+</body>
+</html>
